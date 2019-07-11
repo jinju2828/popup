@@ -17,13 +17,14 @@ class App extends Component {
   render(){
     return(
         <div>
-          <div className='popup_inner'>
+          {/*<div className='popup_inner'>*/}
+            <h1>Show how to display pop up</h1>
             <button onClick={this.toggleForm}>Click to open form</button>
             { this.state.showForm ?
                 <Form
                     closeForm = {this.toggleForm} /> : null
             }
-          </div>
+          {/*</div>*/}
         </div>
     );
   }
