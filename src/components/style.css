@@ -11,11 +11,11 @@
 }
 .popup_inner {
     position: absolute;
-    left: 25%;
-    right: 25%;
-    top: 25%;
-    bottom: 25%;
+    left: 35%;
+    right:35%;
+    top: 20%;
+    bottom: 10%;
     margin: auto;
-    border-radius: 20px;
-    background: white;
+    /*border-radius: 20px;*/
+    background: #F9F6F6;
 }
