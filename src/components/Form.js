@@ -9,7 +9,7 @@ class Form extends Component {
                 <div className='popup_inner'>
                     {/*<div style={{"marginLeft":"10px"}}>*/}
                         <h3 style={{"marginLeft":"10px", "marginTop":"10px"}}>Customer Support Form</h3>
-                        <form>
+                        <form style={{"height": "80%"}}>
                             {/*<div className="container">*/}
                                 <div className="container-fluid">
                                     <div className="row">
@@ -54,17 +54,18 @@ class Form extends Component {
                                     <br />
                                     <br />
                                     <strong>Description:</strong><br />
-                                    <textarea type="text" name="description" placeholder="description" style={{"width":"100%", "height":"100%"}} />
-                                    <br />
-                                    <br />
+                                    <textarea type="text" name="description" placeholder="description" style={{"width":"100%", "height":"15vh"}} />
+
                                 </div>
                             {/*</div>*/}
                         </form>
                             {/*</div>*/}
                         {/*</div>*/}
                     {/*</div>*/}
-                    <button>Submit</button>
-                    <button onClick={this.props.closeForm}>Close</button>
+                    <div className="container">
+                        <button style={{"backgroundColor": "#4CAF50", "color":"white", "border":"none"}}>Submit</button>
+                        <button onClick={this.props.closeForm} style={{"float":"right"}}>Close</button>
+                    </div>
                 </div>
             </div>
             //     </div>
